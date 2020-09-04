@@ -44,21 +44,15 @@ projects:
     title: Projects
     # intro: >
     #   You can list your side projects or open source libraries in this
-    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #   section.
     assignments:
       - title: Big Two
         link: "https://github.com/mcohngeier/BigTwo"
         tagline: |
           - Card game where 2-4 players can connect with friends and play. For rules see [Big Two](https://en.wikipedia.org/wiki/Big_two).<br>
           Server uses multithreading to handle asynchronous actions from clients. <br>
-          GUI written in pygame.
+          GUI designed using pygame.
         time: 2020
-      - title: Self Study
-        link: "#"
-        tagline: |
-          - Curated a curriculum equivalent to a degree in Computer Science.  Completed one year of curriculum.
-        time: 2019 - 2020
 
 education:
     - degree: Bachelor of Science in Philosophy
@@ -90,9 +84,11 @@ experiences:
       time: 2009 - 2018
       company: Self
       details: |
-          - Ranked in the top echelon of backgammon players in the world for 10 years.
+          - Ranked in the top 5 backgammon players in the world for 10 years.
+          - Self-taught backgammon; youngest player ever to rank in the top 15 in the world.
           - Traveled to 30+ different countries.
           - Maximized expectation and profit by managing risk and uncertainty.
+          - [Interview: Matt Cohn-Geier, The Youngest Giant (2010)](https://www.bkgm.com/articles/Simborg/zMattCohnGeier/index.html)
     - role: Virtualization Systems Administrator
       time: 2007 - 2009
       company: GoGrid, San Francisco
