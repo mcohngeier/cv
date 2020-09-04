@@ -21,7 +21,7 @@ semesters:
     courses: 
       - number: Harvard CS50
         title: Introduction to Computer Science
-        link: "https://cs50.harvard.edu/x/2020/"
+        link: "https://cs50.harvard.edu/"
       - number: MIT 6.0001
         title: Introduction to Computer Science and Programming in Python
         link: "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/"
@@ -72,10 +72,10 @@ current-semester:
       link: "http://www.math.cmu.edu/~jmackey/151_128/welcome.html"
 
 other-completed:
-  - number: YouTube
+  - number: ""
     title: Essence of Linear Algebra
     link: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
-  - number: YouTube
+  - number: ""
     title: Essence of Calculus
     link: "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
   - number: Stanford

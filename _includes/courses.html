@@ -11,12 +11,13 @@
 
   {% if semesters.summary %}
   <div class="intro">
-      <p>{{ courses.summary }}</p>
+      <p>{{ semesters.summary }}</p>
   </div><!--//intro-->
   {% endif %}
 
   {% for semester in semesters %}
-    <p>Semester {{ semester.number }}<br>
+    <div class=semester>
+        <span class=semester-title>Semester {{ semester.number }}</span>
     {% for course in semester.courses %}
         <div class="item">
           {% if course.link %}
@@ -28,10 +29,19 @@
           {% else %}
             {{ course.number }} : {{ course.title }}
           {% endif %}
-        </div>
+        </div><!--item-->
     {% endfor %}
-    </p>
+    </div><!--semester-->
   {% endfor %}
-    
+  {% assign current = site.data.selfstudy.current-semester %}
+  <div class="semester">
+    <span class=semester-title>Semester {{ current.number }} (current)</span>
+      {% for course in current.courses %}
+        <div class="item">
+            <a href="{{ course.link }}" target="_blank">{{ course.number }}: {{ course.title }}</a>
+        </div><!--item-->
+      {% endfor %}
+    </div><!--semester-->
 </section><!--//section-->
 {% endif %}
+
