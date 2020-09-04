@@ -1,0 +1,17 @@
+{% assign current = site.data.selfstudy.current-semester %}
+  Semester {{ current.number }} (current)<br>
+  {% for course in current.courses %}
+  <div class="item">
+    <a href="{{ course.link }}" target="_blank">{{ course.number }}: {{ course.title }}</a>
+  </div>
+  {% endfor %}
+<p>
+    <br><br>
+</p>
+{% assign other = site.data.selfstudy.other-completed %}
+  Other Completed (not for credit)<br>
+  {% for course in other %}
+  <div class="item">
+      <a href=" {{course.link }}" target="_blank">{{ course.number }} {{ course.title }}</a>
+  </div>
+  {% endfor %}

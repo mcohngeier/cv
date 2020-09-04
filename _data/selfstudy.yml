@@ -1,0 +1,95 @@
+objective:
+    title: Objective
+    summary: |
+      I have quite a bit of experience in technology, but lack a formal degree in Computer Science. 
+      The goal of this project is to shore up my technical skills to be at least as academic as those covered during the curriculum of an undergraduate or graduate degree in CS.
+
+methodology:
+    title: Methodology
+    summary: |
+      For each class, I completed work equivalent to a student taking the class at the university.  
+      I always used materials directly from the course website where available, but supplemented with MOOCs to make use of autograders or if university materials were unavailable.<br><br>
+      I self-graded problem sets and exams where autograders were unavailable. 
+      Admittedly, self-grading introduces some bias. 
+      However, many of the solution sets had relatively strict rubrics. 
+      In most cases, I did not give any partial credit, only doing so when the answer was generally correct but had some minor mistake. 
+      In some cases, problem sets and exams were available, but no solutions; in these cases, I did not grade the work. I invite anyone to compare my answers to the model solutions.<br><br>
+      Due to concerns over publishing answers to course materials, all repositories are private. However, please email me if you wish to see my work.
+
+semesters:
+  - number: 1
+    courses: 
+      - number: Harvard CS50
+        title: Introduction to Computer Science
+        link: "https://cs50.harvard.edu/x/2020/"
+      - number: MIT 6.0001
+        title: Introduction to Computer Science and Programming in Python
+        link: "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/"
+        grade: 100%
+      - number: MIT 6.0002
+        title: Introduction to Computational Thinking and Data Science
+        link: "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/"
+        grade: 99%
+      - number: UT-AustinX
+        title: "Linear Algebra: Foundations to Frontiers"
+        link: "https://www.edx.org/course/linear-algebra-foundations-to-frontiers"
+        grade: 100%
+  - number: 2
+    courses:
+      - number: MIT 18.01
+        title: Single Variable Calculus
+        link: "https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/"
+        grade: 90%
+      - number: Berkeley CS61B
+        title: Data Structures
+        link: "https://sp18.datastructur.es/"
+        grade: 95%
+      - number: University of Washington CSE341
+        title: Programming Languages
+        link: "https://courses.cs.washington.edu/courses/cse341/16sp/"
+        grade: 98%
+      - number: Stanford CS103
+        title: Mathematical Foundations of Programming
+        link: "https://web.stanford.edu/class/archive/cs/cs103/cs103.1208/"
+
+current-semester:
+  number: 3
+  courses:
+    - number: HUJI
+      title: "Build a Modern Computer from First Principles: From Nand to Tetris"
+      link: https://www.coursera.org/learn/build-a-computer
+    - number: Stanford CS161
+      title: Design and Analysis of Algorithms
+      link: "https://web.stanford.edu/class/cs161/"
+    - number: Harvard STAT 110
+      title: Introduction to Probability
+      link: "https://projects.iq.harvard.edu/stat110/"
+    - number: CMU 15-150
+      title: Principles of Functional Programming
+      link: "https://www.cs.cmu.edu/~15150/previous-semesters/2012-spring/index.html"
+    - number: CMU 15-151/21-128
+      title: Mathematical Concepts and Proofs
+      link: "http://www.math.cmu.edu/~jmackey/151_128/welcome.html"
+
+other-completed:
+  - number: YouTube
+    title: Essence of Linear Algebra
+    link: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+  - number: YouTube
+    title: Essence of Calculus
+    link: "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+  - number: Stanford
+    title: Introduction to Mathematical Thinking
+    link: "https://www.coursera.org/learn/mathematical-thinking"
+  - number: Princeton
+    title: Algorithms, Part I
+    link: "https://www.coursera.org/learn/algorithms-part1/"
+  - number: MIT
+    title: The Missing Semester of Your CS Education
+    link: "https://missing.csail.mit.edu/"
+  - number: Berkeley CS198-087
+    title: Introduction to Mathematical Thinking
+    link: "http://imt-decal.org/"
+  - number: ArsDigita
+    title: Discrete Mathematics
+    link: "http://www.aduni.org/courses/discrete/"

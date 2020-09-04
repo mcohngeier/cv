@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Matt Cohn-Geier
+    avatar: MCG100.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mcohngeier@gmail.com
+    phone: 916 573 0777
+    website: mcohngeier.github.io #do not add http://
+    github: mcohngeier
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars: 
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+
+    # interests:
+#      - item: Climbing
+        # link:
+
+#      - item: Snowboarding
+        # link:
+
+#      - item: Cooking
+        # link:
+
+career-profile:
+    title: About Me
+    summary: |
+      Trader, Coder, Professional Gambler, World Traveler.
+
+projects:
+    title: Projects
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Big Two
+        link: "https://github.com/mcohngeier/BigTwo"
+        tagline: |
+          - Card game where 2-4 players can connect with friends and play. For rules see [Big Two](https://en.wikipedia.org/wiki/Big_two).<br>
+          Server uses multithreading to handle asynchronous actions from clients. <br>
+          GUI written in pygame.
+        time: 2020
+      - title: Self Study
+        link: "#"
+        tagline: |
+          - Curated a curriculum equivalent to a degree in Computer Science.  Completed one year of curriculum.
+        time: 2019 - 2020
+
+education:
+    - degree: Bachelor of Science in Philosophy
+      honors: with Honors
+      university: University of Wisconsin-Madison
+      time: 2007
+      details: |
+        - Senior Thesis: <i>Rational Choice in Simple Strategic Situations</i><br>
+        - Concentration in Game Theory and Economics<br>
+        - President of University of Wisconsin Chess Club (2003-2007)<br>
+        - Illinois High School Chess State Champion (2002)
+        
+experiences:
+    - role: Assistant Trader
+      time: 2019 - 2020
+      company: Walleye Capital, Las Vegas
+      details: |
+          - Developed regression models to analyze historical performance and predict volatility using Java, Groovy, and Python.
+          - Developed and maintained scripts and complex queries for data analysis and analyzed queries for performance.
+          - Created quality of life improvements for traders and automated manual processes.
+    - role: Assistant Trader
+      time: 2018 - 2019
+      company: Parallax Volatility Advisers, San Francisco
+      details: |
+          - Developed tools to parse and display large datasets in human-readable form using Python, SQL, Excel, and VBA.
+          - Developed tools to track intraday profits and losses and automatically display end-of-day snapshots.
+          - Tested user experience and contributed ideas towards improvements.
+          - Studied theory of option pricing
+    - role: Professional Gambler
+      time: 2009 - 2018
+      company: Self
+      details: |
+          - Ranked in the top echelon of backgammon players in the world for 10 consecutive years.
+          - Traveled to 30+ different countries.
+          - Maximized expectation and profit by managing risk and uncertainty.
+    - role: Virtualization Systems Administrator
+      time: 2007 - 2009
+      company: GoGrid, San Francisco
+      details: |
+        - Provided Tier-3 support for a cloud hosting environment of 2,500 virtual servers running on 125 nodes.
+        - Developed Perl and bash scripts to automate processes.
+        - Maintained Wiki and MySQL database.
+        - Deployed new servers and facilitated testing and product development.
+
+skills:
+    title: Skills
+
+    toolset:
+      - item: 
+        name: Python, numpy, pandas, pygame
+      - item: 
+        name: Java, Groovy
+      - item: 
+        name: SQL
+      - item: 
+        name: Linux, bash, git, Perl
+      - item:
+        name: C, C++
+      - item:
+        name: Excel, VBA, ODBC
+
+# footer: >
+  #  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

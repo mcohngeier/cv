@@ -1,0 +1,37 @@
+{% assign semesters = site.data.selfstudy.semesters %}
+{% if semesters %}
+<section class="section courses-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+    Courses
+  </h2>
+
+  {% if semesters.summary %}
+  <div class="intro">
+      <p>{{ courses.summary }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for semester in semesters %}
+    <p>Semester {{ semester.number }}<br>
+    {% for course in semester.courses %}
+        <div class="item">
+          {% if course.link %}
+            <a href="{{ course.link }}" target="_blank">{{ course.number }}: {{ course.title }}
+            {% if course.grade %}
+            ({{ course.grade }})
+            {% endif %}
+            </a>
+          {% else %}
+            {{ course.number }} : {{ course.title }}
+          {% endif %}
+        </div>
+    {% endfor %}
+    </p>
+  {% endfor %}
+    
+</section><!--//section-->
+{% endif %}
