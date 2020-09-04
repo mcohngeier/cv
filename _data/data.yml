@@ -38,7 +38,7 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Trader, Coder, Professional Gambler, World Traveler.
+      Trader, Coder, Professional Gambler, World Traveler
 
 projects:
     title: Projects
@@ -86,12 +86,12 @@ experiences:
           - Developed tools to parse and display large datasets in human-readable form using Python, SQL, Excel, and VBA.
           - Developed tools to track intraday profits and losses and automatically display end-of-day snapshots.
           - Tested user experience and contributed ideas towards improvements.
-          - Studied theory of option pricing
+          - Studied theory of option pricing.
     - role: Professional Gambler
       time: 2009 - 2018
       company: Self
       details: |
-          - Ranked in the top echelon of backgammon players in the world for 10 consecutive years.
+          - Ranked in the top echelon of backgammon players in the world for 10 years.
           - Traveled to 30+ different countries.
           - Maximized expectation and profit by managing risk and uncertainty.
     - role: Virtualization Systems Administrator
