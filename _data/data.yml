@@ -49,7 +49,7 @@ projects:
       - title: Big Two
         link: "https://github.com/mcohngeier/BigTwo"
         tagline: |
-          - Card game where 2-4 players can connect with friends and play. For rules see [Big Two](https://en.wikipedia.org/wiki/Big_two).<br>
+          - Developed online game where 2-4 players can connect and play with friends. For rules see [Big Two](https://en.wikipedia.org/wiki/Big_two).<br>
           Server uses multithreading to handle asynchronous actions from clients. <br>
           GUI designed using pygame.
         time: 2020
