@@ -49,7 +49,7 @@ semesters:
         link: "https://courses.cs.washington.edu/courses/cse341/16sp/"
         grade: 98%
       - number: Stanford CS103
-        title: Mathematical Foundations of Programming
+        title: Mathematical Foundations of Computing
         link: "https://web.stanford.edu/class/archive/cs/cs103/cs103.1208/"
 
 current-semester:
@@ -58,6 +58,9 @@ current-semester:
     - number: HUJI
       title: "Build a Modern Computer from First Principles: From Nand to Tetris"
       link: https://www.coursera.org/learn/build-a-computer
+    - number: Berkeley Data 8
+      title: Foundations of Data Science
+      link: http://data8.org/fa20/
     - number: Stanford CS161
       title: Design and Analysis of Algorithms
       link: "https://web.stanford.edu/class/cs161/"
