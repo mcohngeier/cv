@@ -58,18 +58,21 @@ current-semester:
     - number: HUJI
       title: "Build a Modern Computer from First Principles: From Nand to Tetris"
       link: https://www.coursera.org/learn/build-a-computer
+    - number: Stanford CS229
+      title: Machine Learning
+      link: http://cs229.stanford.edu/
     - number: Berkeley Data 8
       title: Foundations of Data Science
       link: http://data8.org/fa20/
-    - number: Stanford CS161
-      title: Design and Analysis of Algorithms
-      link: "https://web.stanford.edu/class/cs161/"
-    - number: Harvard STAT 110
-      title: Introduction to Probability
-      link: "https://projects.iq.harvard.edu/stat110/"
-    - number: CMU 15-150
-      title: Principles of Functional Programming
-      link: "https://www.cs.cmu.edu/~15150/previous-semesters/2012-spring/index.html"
+#     - number: Stanford CS161
+#       title: Design and Analysis of Algorithms
+#       link: "https://web.stanford.edu/class/cs161/"
+#     - number: Harvard STAT 110
+#       title: Introduction to Probability
+#       link: "https://projects.iq.harvard.edu/stat110/"
+#     - number: CMU 15-150
+#       title: Principles of Functional Programming
+#       link: "https://www.cs.cmu.edu/~15150/previous-semesters/2012-spring/index.html"
     - number: CMU 15-151/21-128
       title: Mathematical Concepts and Proofs
       link: "http://www.math.cmu.edu/~jmackey/151_128/welcome.html"
